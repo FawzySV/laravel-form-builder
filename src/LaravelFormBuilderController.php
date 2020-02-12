@@ -1,5 +1,5 @@
 <?php
-
+namespace Sadeghpm\LaravelFormBuilder;
 
 class LaravelFormBuilderController
 {
