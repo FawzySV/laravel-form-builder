@@ -1,8 +1,8 @@
-# A laravel development package to make models create/edit form in blade syntax
+# A package to make models create/edit form in blade syntax
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sadeghpm/laravel-form-builder.svg?style=flat-square)](https://packagist.org/packages/sadeghpm/laravel-form-builder)
 [![Total Downloads](https://img.shields.io/packagist/dt/sadeghpm/laravel-form-builder.svg?style=flat-square)](https://packagist.org/packages/sadeghpm/laravel-form-builder)
-[screenshot]()
+[![screenshot](https://raw.githubusercontent.com/SadeghPM/laravel-form-builder/master/doc/laravel-form-bulider-code-screen-shot.png)](https://raw.githubusercontent.com/SadeghPM/laravel-form-builder/master/doc/laravel-form-bulider-code-screen-shot.png)
 ## Installation
 
 You can install the package via composer:
