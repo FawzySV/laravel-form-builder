@@ -88,7 +88,7 @@
                             Type
                         </label>
                         <select v-model="fld.type" :id=`type-${i}` class="ui dropdown">
-                            <option v-for="type in typ" :value="type"> {{type}} </option>
+                            <option v-for="type in typ" :value="type"> @{{type}} </option>
                         </select>
                     </div>
                     <div class="field required" v-if="fld.type != 'row' && fld.type != 'form-divider'">
@@ -110,7 +110,7 @@
                             Size
                         </label>
                         <select v-model="fld.size" :id=`size-${i}` class="ui dropdown search">
-                            <option v-for="size in siz" :value="size"> {{size}} </option>
+                            <option v-for="size in siz" :value="size"> @{{size}} </option>
                         </select>
                     </div>
                     <div class="five wide field">
@@ -165,7 +165,7 @@
             Generated Code
         </h2>
         <pre id="code">
-                {{code}}
+                @{{code}}
             </pre>
     </div>
     <br>
