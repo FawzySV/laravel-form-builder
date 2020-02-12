@@ -1,6 +1,7 @@
 window.$ = window.jQuery = require('jquery');
 window.Vue = require('vue');
-
+require('semantic-ui-css/semantic');
+require('highlightjs/highlight.pack');
 /**
  * clone function
  * @param obj

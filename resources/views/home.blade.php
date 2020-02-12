@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <title>Laravel form builder</title>
     <link rel="stylesheet" href="{{asset('vendor/laravel-form-builder/app.css')}}">
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/vue/dist/vue.min.js"></script>
-    <script src="node_modules/semantic-ui-css/semantic.min.js"></script>
-    <script src="node_modules/highlightjs/highlight.pack.min.js"></script>
     <link rel="shortcut icon" href="{{asset('vendor/laravel-form-builder/img/favicon.ico')}}" type="image/x-icon">
 </head>
 <body>
