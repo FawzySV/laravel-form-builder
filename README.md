@@ -17,7 +17,7 @@ To install run this command:
 php artisan laravel-form-builder:install
 ```
 
-Now open link [form-builder](http://127.0.0.1:8080/form-builder) `http://127.0.0.1:8080/form-builder` in browser and start building form.
+Now open link [form-builder](http://127.0.0.1:8000/form-builder) `http://127.0.0.1:8000/form-builder` in browser and start building form.
 
 ### Testing
 
