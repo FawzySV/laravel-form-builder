@@ -1,9 +1,9 @@
-@import url(../../node_modules/semantic-ui-css/semantic.min.css);
-@import url(../../node_modules/vazir-font/dist/font-face.css);
-@import url(hljs/atom-one-dark.css);
+@import "~semantic-ui-css/semantic.css";
+@import "~vazir-font/dist/font-face.css";
+@import "~highlightjs/styles/atom-one-dark.css";
 
 * {
-    font-family: Vazir;
+    font-family: Vazir,'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, input, select {

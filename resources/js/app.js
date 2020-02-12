@@ -1,3 +1,6 @@
+window.$ = window.jQuery = require('jquery');
+window.Vue = require('vue');
+
 /**
  * clone function
  * @param obj
@@ -268,7 +271,7 @@ var app = new Vue({
                                 var genClass = generalClass + ` @error('${field.name}') is-invalid @enderror`;
                             }
                         } else
-                        // handle bootstrap class
+                            // handle bootstrap class
                         if (this.theme == 'semanticui') {
                             var genClass = ` @error('${field.name}') error @enderror`;
                         } else {
@@ -292,7 +295,7 @@ var app = new Vue({
                             var genClass = generalClass + ` @error('${field.name}') is-invalid @enderror`;
                         } else
 
-                        // handle bootstrap class
+                            // handle bootstrap class
                         if (this.theme == 'semanticui') {
                             var genClass = ` @error('${field.name}') error @enderror`;
                         } else {
@@ -310,7 +313,7 @@ var app = new Vue({
                         if (this.theme == 'bootstrap') {
                             var genClass = generalClass + ` @error('${field.name}') is-invalid @enderror`;
                         } else
-                        // handle bootstrap class
+                            // handle bootstrap class
                         if (this.theme == 'semanticui') {
                             var genClass = 'ui dropdown' + ` @error('${field.name}') error @enderror`;
                         } else {

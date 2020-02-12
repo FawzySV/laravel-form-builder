@@ -1,0 +1,54 @@
+{
+    "name": "sadeghpm/laravel-form-builder",
+    "description": "A laravel development package to make models create/edit form in blade syntax",
+    "keywords": [
+        "sadeghpm",
+        "laravel-form-builder"
+    ],
+    "homepage": "https://github.com/sadeghpm/laravel-form-builder",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sadeghpm",
+            "email": "sadeghpm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sadeghpm\\LaravelFormBuilder\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sadeghpm\\LaravelFormBuilder\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sadeghpm\\LaravelFormBuilder\\LaravelFormBuilderServiceProvider"
+            ],
+            "aliases": {
+                "LaravelFormBuilder": "Sadeghpm\\LaravelFormBuilder\\LaravelFormBuilderFacade"
+            }
+        }
+    }
+}

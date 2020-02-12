@@ -1,52 +1,39 @@
-# laravel-form-builder
-The laravel form builder code generator
- 
-**_The generated form can be use in `CREATE FORM` and `EDIT FORM` together._**
- 
-## supported frameworks
-- Bootstrap 3.x, 4.x
-- Semantic UI all version
-- Materialize css all version 
+# A laravel development package to make models create/edit form in blade syntax
 
-# supported elements & etc.
-- row and columns
-- input (all type)
-- select (full auto generate )
-- textarea
-- submit 
-- form divider
-- all form methods
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sadeghpm/laravel-form-builder.svg?style=flat-square)](https://packagist.org/packages/sadeghpm/laravel-form-builder)
+[![Total Downloads](https://img.shields.io/packagist/dt/sadeghpm/laravel-form-builder.svg?style=flat-square)](https://packagist.org/packages/sadeghpm/laravel-form-builder)
 
+## Installation
 
+You can install the package via composer:
 
-## how to use it
-It's so easy, Let's go (O_x) 
-
-
-![Scrren shot](laravel-form-bulider-code-screen-shot.png?raw=true "Scrrenshot")
-
-
-
-### download project
-git clone or download: 
-
-```shell script
-git clone https://gitgo.ir/4xmen/laravel-form-builder.git
+```bash
+composer require sadeghpm/laravel-form-builder --dev
 ```
 
-### install dependencies:
-in project folder: (command to change folder `cd laravel-form-builder`)
-```shell script
-  npm install
- ```
+## Usage
+To install run this command:
+``` php
+php artisan laravel-form-builder:install
+```
 
-## how run it
-open `index.html`
+Now open link [form-builder](http://127.0.0.1:8080/form-builder) `http://127.0.0.1:8080/form-builder` in browser and start building form.
 
-If you like it just star project to support us. 
+### Testing
 
-## website
+``` bash
+composer test
+```
 
-cheers the 4xmen team :-P
+### Security
 
-http://4xmen.ir
+If you discover any security related issues, please email sadeghpm@gmail.com instead of using the issue tracker.
+
+## Credits
+
+- [Sadeghpm](https://github.com/sadeghpm)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
