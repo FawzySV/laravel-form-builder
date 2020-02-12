@@ -1,4 +1,5 @@
 <?php
+namespace Sadeghpm\LaravelFormBuilder;
 
 
 class LaravelFormBuilderInstallCommand extends \Illuminate\Console\Command

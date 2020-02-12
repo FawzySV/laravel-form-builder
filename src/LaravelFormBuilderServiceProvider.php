@@ -40,7 +40,7 @@ class LaravelFormBuilderServiceProvider extends ServiceProvider
             ], 'lang');*/
 
             // Registering package commands.
-             $this->commands([\LaravelFormBuilderInstallCommand::class]);
+             $this->commands([LaravelFormBuilderInstallCommand::class]);
         }
     }
 
